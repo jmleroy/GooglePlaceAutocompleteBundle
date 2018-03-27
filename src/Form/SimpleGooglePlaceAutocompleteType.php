@@ -20,7 +20,7 @@ class SimpleGooglePlaceAutocompleteType extends AbstractType
 
     public function getParent()
     {
-        return TextType::class;
+        return 'Symfony\Component\Form\Extension\Core\Type\TextType';
     }
 
     public function getBlockPrefix()
